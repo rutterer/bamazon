@@ -1,0 +1,28 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "homework",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rutterer/bamazon.git"
+  },
+  "keywords": [
+    "inventory",
+    "node.js",
+    "MySQL"
+  ],
+  "author": "rutterer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rutterer/bamazon/issues"
+  },
+  "homepage": "https://github.com/rutterer/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^6.2.0",
+    "mysql": "^2.16.0"
+  }
+}
