@@ -84,14 +84,14 @@ function prompts () {
             function(error) {
               if (error) throw err;
               console.log("Thank you for your purchase! Your order total was " + chosenItem.price * answer.quantity);
-              /* start(); */
+              start();
             }
           );
         }
         else {
           
           console.log("That item is out of stock. Sorry...");
-          /* start(); */
+          start();
         }
       });
     });
